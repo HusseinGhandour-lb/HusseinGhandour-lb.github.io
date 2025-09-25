@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
 
     <header>
@@ -20,11 +22,17 @@
 
     <section class="main">
         <div>
-            <h2>Hello I'm Hussein<br><span>Data Analyst</span></h2>
+            <h2>Hello I'm Hussein<br>
+                <a href="" class="typewrite" data-period="2000" data-type='[ "Computer Eng", "Data Analyst", "Machine Learning Enthusiast", "Software Developer" ]
+'>
+                    <span class="wrap"></span>
+                </a>
+            </h2>
             <h3>I use data in usfull meaning</h3>
             <a href="#project" class="main-btn">view my work</a>
             <div class="social-icons">
-                <a href="https://www.linkedin.com/in/hussein-ghandour-7137b9341/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/hussein-ghandour-7137b9341/"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/HusseinGhandour-lb"><i class="fa-brands fa-github"></i></a>
                 <a href="https://x.com/HsenGhandour"><i class="fa-brands fa-x-twitter"></i></a>
             </div>
@@ -45,11 +53,21 @@
             </div>
             <div class="card">
                 <div class="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div class="info">
+                    <h3>Coding</h3>
+                    <p>develop efficient coding solutions using Flutter, Java, and Python</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon">
                     <i class="fa-solid fa-robot"></i>
                 </div>
                 <div class="info">
                     <h3>Machine learning</h3>
-                    <p>create a machime learning model using the collected data to create a prdictive model or classifier</p>
+                    <p>create a machime learning model using the collected data to create a prdictive model or
+                        classifier</p>
                 </div>
             </div>
         </div>
@@ -58,78 +76,73 @@
     <section class="project" id="project">
         <h2 class="title">Projects</h2>
         <div class="content">
-            <div class="project-card">
+            <div class="project-card" data-category="mobile">
                 <div class="project-img">
-                    <img src="imgas/router.png" alt="">
+                    <img src="imgas/quiz.jpg" alt="">
                 </div>
                 <div class="project-info">
-                    <p class="ptoject category">Most famous routers in a certain website</p>
+                    <p class="project-category">quiz mobile application using flutter</p>
                     <strong class="project-title">
-                        <span>Data Analysis</span>
-                        <a href="https://github.com/HusseinGhandour-lb/Router-dashBord/tree/main" class="more-details">more details</a>
+                        <span>Mobile Development</span>
+                        <a href="https://github.com/HusseinGhandour-lb/flutter_quiz_application"
+                            class="more-details">more details</a>
                     </strong>
+                    <div class="tags">
+                        <span class="tag">Flutter SDK</span>
+                        <span class="tag">Dart</span>
+                    </div>
                 </div>
             </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="imgas/companies.jpg" alt="">
-                </div>
-                <div class="project-info">
-                    <p class="ptoject category">Top companies and the world and most famous industry field</p>
-                    <strong class="project-title">
-                        <span>Data Analysis</span>
-                        <a href="https://github.com/HusseinGhandour-lb/Companies-and-industries" class="more-details">more details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="imgas/weather.jpg" alt="">
-                </div>
-                <div class="project-info">
-                    <p class="ptoject category">The difference in weather stats in europe different regions</p>
-                    <strong class="project-title">
-                        <span>Data Analysis</span>
-                        <a href="https://github.com/HusseinGhandour-lb/Weather-stat-project/tree/main" class="more-details">more details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="imgas/pn.jpg" alt="">
-                </div>
-                <div class="project-info">
-                    <p class="ptoject category">Create a model that applies sentiment analysis to a given input</p>
-                    <strong class="project-title">
-                        <span>Machine Learning</span>
-                        <a href="https://github.com/HusseinGhandour-lb/Sentiment-analysis-ml/tree/main" class="more-details">more details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img">
-                    <img src="imgas/btc.jpg" alt="">
-                </div>
-                <div class="project-info">
-                    <p class="ptoject category">Prediction of Bitcoin price based on previous data and user input</p>
-                    <strong class="project-title">
-                        <span>Machine Learning</span>
-                        <a href="https://github.com/HusseinGhandour-lb/btcoin_machine_learning" class="more-details">more details</a>
-                    </strong>
-                </div>
-            </div>
-            <div class="project-card">
+
+            <div class="project-card" data-category="web">
                 <div class="project-img">
                     <img src="imgas/lap.webp" alt="">
                 </div>
                 <div class="project-info">
-                    <p class="ptoject category">Full website for Laptop price prediction and recommendation system.</p>
+                    <p class="project-category">Laptop Price Prediction Website</p>
                     <strong class="project-title">
                         <span>End-to-End</span>
-                        <a href="https://github.com/HusseinGhandour-lb/recommendation_and_prediction" class="more-details">more details</a>
+                        <a href="https://github.com/HusseinGhandour-lb/recommendation_and_prediction"
+                            class="more-details">more details</a>
                     </strong>
+                    <div class="tags">
+                        <span class="tag">Flask</span>
+                        <span class="tag">ML Model</span>
+                        <span class="tag">Frontend</span>
+                    </div>
                 </div>
             </div>
+
+            <div class="project-card" data-category="programming">
+                <div class="project-img">
+                    <img src="imgas/dsa.png" alt="">
+                </div>
+                <div class="project-info">
+                    <p class="project-category">Implemeant different data struture algorithims</p>
+                    <strong class="project-title">
+                        <span>Programming</span>
+                        <a href="https://github.com/HusseinGhandour-lb/recommendation_and_prediction"
+                            class="more-details">more details</a>
+                    </strong>
+                    <div class="tags">
+                        <span class="tag">Java</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="projects.html" style="
+    display: inline-block;
+    padding: 12px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+  ">
+                See All Projects ➡
+            </a>
         </div>
     </section>
 
@@ -165,5 +178,68 @@
             <a href="https://x.com/HsenGhandour"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </footer>
+
+    <script>
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // inject cursor CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+    </script>
+
+
+
 </body>
+
 </html>
